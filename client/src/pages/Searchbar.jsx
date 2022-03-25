@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import axios from "axios";
 import Searchresults from "./Searchresults";
 
-var data = require("../assets/data.json");
+var data1 = require("../assets/data.json");
 
-const Searchbar = ({ setData }) => {
+const Searchbar = ({ setData ,setisloaded}) => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleInputChanged = (e) => {
@@ -15,8 +15,9 @@ const Searchbar = ({ setData }) => {
     //var searchQuery = this.state.searchQuery;
     console.log("ablhdjln");
 
-    console.log(data);
-    setData(data);
+   // console.log(data);
+    setData(data1);
+    setisloaded(true);
     //window.location.href = "https://youtube.com/results?search_query=" + searchQuery;
   };
 
@@ -58,13 +59,15 @@ const Searchbar = ({ setData }) => {
                 placeholder="Search..."
                 aria-label="Search..."
                 aria-describedby="button-addon2"
+                value={searchQuery}
+                onChange={handleInputChanged}
               />
             </div>
-
-            <a href="#" className="primary-btn btn-primary offset-md-4 avi1">
-                <span class="fa fa-search"> </span>
+        
+            <button href="#" className="primary-btn btn-primary offset-md-4 avi1" onClick={handleButtonClicked}>
+                <span className="fa fa-search"> </span>
                 &nbsp;   Search
-            </a>
+            </button>
     </>
   );
 };

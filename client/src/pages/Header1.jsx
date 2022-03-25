@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo_img from '../assets/logo_1.png'
 
 export const Header1 = () => {
   return (
@@ -11,6 +12,8 @@ export const Header1 = () => {
         <nav className="flex flex-jc-sb flex-ai-c container container--pall">
           <a href="/" className="header__logo logo">
             <i className="bx bxs-bookmark" />
+            <img src={Logo_img} alt="Logo image" />
+
             <span>MP POLICE</span>
           </a>
           <a href="#" id="btnHamburger" className="header__hamburger hide-for-desktop">
@@ -19,8 +22,8 @@ export const Header1 = () => {
             <span />
           </a>
           <div className="header__links hide-for-mobile">
-            <a href="#">Home</a>
-            <a href="#">Upload</a>
+            <a href="#home">Home</a>
+            <a href="#upload">Upload</a>
             <a href="#">Contact</a>
             <a href="#" className="btn-red">About US</a>
           </div>

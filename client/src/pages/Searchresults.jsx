@@ -1,20 +1,59 @@
 import React from "react";
+import '../assets/table.css'
 
 export const Searchresults = ({ data }) => {
+
+  console.log(data);
   return (
     <>
+
+<hr /> 
+   
       <table>
         <thead id="tableHead">
+
+
           <tr>
             <th>Track</th>
             <th>Plate Number</th>
             {/* <th>Image</th> */}
-            <th>View Vehicle</th>
+            <th>Track Vehicle</th>
             {/* <th>Amount</th> */}
           </tr>
         </thead>
         <tbody>
           <tr>
+{/* 
+{ data.balance ?. data.map(el =>{
+
+  return (
+<>
+
+
+<td>
+<a href="#">
+  {" "}
+  <i className="fa fa-search" />
+</a>
+
+</td>
+
+<td>{el.plateno}</td>
+
+<td>
+<a className="status status-paid" href="#">
+ {el.balance}
+</a>
+</td>
+
+
+
+</>
+  );
+
+      
+})} */}
+
             <td>
               <a href="#">
                 {" "}
@@ -99,3 +138,4 @@ export const Searchresults = ({ data }) => {
     </>
   );
 };
+export default  Searchresults;

@@ -1,10 +1,10 @@
 import React from "react";
 import Searchbar from "./Searchbar";
 
-export const Hero = ({setData}) => {
+export const Hero = ({setData,setisloaded}) => {
   return (
     <>
-      <section className="hero">
+      <section className="hero" id="home">
         <div className="container">
           <div className="hero__image" />
           <div className="hero__text container--pall">
@@ -15,7 +15,7 @@ export const Hero = ({setData}) => {
             </p>
            
 
-            <Searchbar setData={setData} />
+            <Searchbar setData={setData}   setisloaded={setisloaded}/>
           </div>
         </div>
       </section>

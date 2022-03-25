@@ -27,6 +27,7 @@ const Drag = () => {
                         className='box__file'
                         data-multiple-caption='{count} files selected'
                         multiple
+                        style={{visibility:"hidden"}}
                     />
                     <label htmlFor='file'>
                         Select File
