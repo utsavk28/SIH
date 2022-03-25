@@ -10,9 +10,8 @@ export const Hero = ({setData}) => {
           <div className="hero__text container--pall">
             <h1>Vehicle Tracking </h1>
             <p>
-              A clean and simple interface to organize your favourite websites.
-              Open a new browser tab and see your sites load instantly. Try it
-              for free.
+              A simple and easy way to track Suspected criminals on the move.
+              A web based solution to increase security on roads.
             </p>
            
 
