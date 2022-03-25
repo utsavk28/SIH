@@ -26,13 +26,13 @@ export const Featurs = () => {
         <Drag />
       </div>
 
-      <div class="feature__text container--pall">
+      <div class="feature__text container--pall md-4">
         <h3>Bookmark in one click</h3>
         <p>
           Organize your bookmarks however you like. Our simple drag-and-drop interface 
           gives you complete control over how you manage your favourite sites.
         </p>
-        <a href="#" class="primary-btn btn-blue">More Info</a>
+        <a href="#" class="primary-btn btn-blue ">More Info</a>
       </div>
     </div>
     </div >

@@ -310,11 +310,14 @@
 
 
 .box {
+	height:30%;
+	width:50%;
 	font-size: 1.25rem; /* 20 */
-	background-color: #c8dadf;
+	background-color: #6bdaeb;
 	position: relative;
 	text-align: center;
 	padding: 100px 20px;
+	border-radius: 25px;
 }
 .box.has-advanced-upload {
 	outline: 2px dashed #92b0b3;
