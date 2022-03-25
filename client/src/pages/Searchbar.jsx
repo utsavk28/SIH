@@ -18,7 +18,7 @@ const Searchbar = ({ setData, setisloaded }) => {
 
     return (
         <>
-            <div className='input-group input-group-xl'>
+            {/* <div className='input-group input-group-xl'>
                 <input
                     type='text'
                     className='form-control'
@@ -32,12 +32,32 @@ const Searchbar = ({ setData, setisloaded }) => {
 
             <button
                 href='#'
-                className='primary-btn btn-primary offset-md-4 avi1'
+                className='primary-btn btn-primary offset-md-10 offset-mt-4 avi1'
                 onClick={handleButtonClicked}
             >
                 <span className='fa fa-search'> </span>
                 &nbsp; Search
-            </button>
+            </button> */}
+
+
+            <div className="input-group mb-3">
+        <input
+         type="text" 
+         className="form-control" 
+         placeholder="Search Number.." 
+         aria-label="Search Number.." 
+         aria-describedby="button-addon2"
+         value={searchQuery}
+         onChange={handleInputChanged}
+          />
+
+        <button className="btn btn-outline-primary" 
+        type="button" 
+        id="button-addon2"
+        onClick={handleButtonClicked}
+        >  <span className='fa fa-search'> </span>   &nbsp;  Search</button>
+      </div>
+
         </>
     );
 };

@@ -5,6 +5,8 @@ import Hero from './Hero';
 import Footer from './Footer';
 import '../assets/template1.css';
 import Searchresults from './Searchresults';
+import { SearchDashboard } from './SearchDashboard';
+import Slide  from './Slide';
 
 export const Home = () => {
     const [data, setData] = useState();
@@ -26,6 +28,8 @@ export const Home = () => {
             {!isloaded && <Featurs />}
             {isloaded && <Searchresults data={data} />}
             <Footer />
+{/* <Slide/> */}
+{/* <SearchDashboard /> */}
         </>
     );
 };
