@@ -9,9 +9,9 @@ export const Header1 = () => {
                 <nav className='flex flex-jc-sb flex-ai-c container container--pall'>
                     <a href='/' className='header__logo logo'>
                         <i className='bx bxs-bookmark' />
-                        <img src={Logo_img} alt='Logo image' />
+                        <img src={Logo_img} alt='Logo image'  className='cls1'/>
 
-                        <span>MP POLICE</span>
+                        <span>MP Police</span>
                     </a>
                     <a
                         href='#'
