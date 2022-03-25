@@ -25,17 +25,17 @@ export const Header1 = () => {
                     <div className='header__links hide-for-mobile'>
                         <a href='#home'>Home</a>
                         <a href='#upload'>Upload</a>
-                        <a href='#'>Contact</a>
                         <a href='#' className='btn-red'>
                             About US
                         </a>
                     </div>
                 </nav>
                 <div className='header__menu container--px has-fade hide-for-desktop'>
-                    <a href='#'>Features</a>
-                    <a href='#'>Pricing</a>
-                    <a href='#'>Contact</a>
-                    <a href='#'>Login</a>
+                <a href='#home'>Home</a>
+                        <a href='#upload'>Upload</a>
+                        <a href='#' className='btn-red'>
+                            About US
+                        </a>
                 </div>
                 <div className='header__social-icons has-fade hide-for-desktop'>
                     <a href='#'>

@@ -537,7 +537,8 @@
   
   .features__feature {
     
-    position: relative;
+    position:relative;
+    margin-top: -25%;
     display: none;
   }
   
@@ -1147,16 +1148,32 @@ label {
 
 .fatima 
 {
-  margin-top:10%;
+  font-size:20px;
+  margin-top:1%;
   margin-bottom:80%;
 }
 .muskan
 {
+ 
 margin-left: -50%;
+margin-bottom: 10%;
 }
 
 .cls1
 {
   width: 80px;
   height:auto;
+}
+
+.shak1
+{
+
+  margin-left:63%;
+  margin-top:105%;
+
+}
+.skkq
+{
+
+  margin-top:10%;
 }
