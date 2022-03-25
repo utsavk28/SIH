@@ -3,8 +3,7 @@ import cv2
 import numpy as np
 import pytesseract as pt
 import matplotlib.pyplot as plt
-# import easyocr
-
+import urllib
 
 pt.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
@@ -14,7 +13,6 @@ INPUT_HEIGHT = 640
 net = cv2.dnn.readNetFromONNX('./data/model/yolo_v5.onnx')
 net.setPreferableBackend(cv2.dnn.DNN_BACKEND_OPENCV)
 net.setPreferableTarget(cv2.dnn.DNN_TARGET_CPU)
-
 
 def get_detections(img, net):
     image = img.copy()
@@ -114,13 +112,28 @@ def extract_text(image, bbox):
         return text
 
 
-def main(name, path, type, save=False):
+def url_to_image(url):
+    with urllib.request.urlopen(url) as url:
+        resp = url.read()
+        image = np.asarray(bytearray(resp), dtype="uint8")
+        image = cv2.imdecode(image, cv2.IMREAD_COLOR)
+
+        return image
+
+def main(name, path, type,url=True, save=True):
     if type == 'img':
-        img = cv2.imread(path)
+        if url :
+            img = url_to_image(path)
+        else :
+            img = cv2.imread(path)
         try:
             res, labels = yolo_predictions(img, net)
             if save:
                 cv2.imwrite(f"./data/images/output/{name}.png", res)
+                imageBlob = bucket.blob("/")
+                imagePath = f"./data/images/output/{name}.png"
+                imageBlob = bucket.blob(name)
+                imageBlob.upload_from_filename(imagePath) 
             return {
                 "Labels": labels
             }
