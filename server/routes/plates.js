@@ -10,6 +10,6 @@ const router = express.Router();
 router.get('/', getLocations);
 router.post('/', addLocation);
 
-router.get('/locs', getSpecific);
+router.get('/locs/:plate', getSpecific);
 
 module.exports = router;

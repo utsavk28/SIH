@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Searchresults from './Searchresults';
-
+import { url } from '../utils/api';
 var data1 = require('../assets/data.json');
 
 const Searchbar = ({ setData, setisloaded }) => {
@@ -11,14 +11,12 @@ const Searchbar = ({ setData, setisloaded }) => {
         setSearchQuery(e.target.value);
     };
 
-    const handleButtonClicked = () => {
-        //var searchQuery = this.state.searchQuery;
-        console.log('ablhdjln');
-
-        // console.log(data);
-        setData(data1);
+    const handleButtonClicked = async () => {
+        const plate = 'MH47AB1234';
+        const res = await axios.get(`${url}/locs/${plate}`);
+        console.log(res.data);
+        setData(res.data);
         setisloaded(true);
-        //window.location.href = "https://youtube.com/results?search_query=" + searchQuery;
     };
 
     return (
