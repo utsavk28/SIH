@@ -12,7 +12,7 @@ const Searchbar = () => {
     };
 
     const handleButtonClicked = () => {
-        var searchQuery = this.state.searchQuery;
+        //var searchQuery = this.state.searchQuery;
         console.log('ablhdjln');
 
         console.log(data);
