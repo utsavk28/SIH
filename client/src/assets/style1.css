@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+ .mp-police1-navbar-1 {
+	 color: white;
+	 font-family: "Roboto";
+}
+ .mp-police1-navbar-1-anchor-buttons {
+	 color: white;
+	 border-style: solid;
+	 background-color: black;
+	 border-color: white;
+	 border-radius: 7px;
+	 width: 50px;
+}
+ #mp-police1-navbar-1-anchor-buttons {
+	 width: 100px;
+	 border-color: black;
+}
+/* NAVBAR - 2 */
+ .mp-police1-navbar-2-image {
+	 height: 100px;
+	 width: 150px;
+}
+ .mp-police1-navbar-2-button {
+	 border-style: solid;
+	 border-color: white;
+	 background-color: black;
+	 color: white;
+	 border-radius: 30px;
+	 height: 30px;
+	 width: 150px;
+}
+/* CAROUSEL */
+ .mp-police1-carousel-image {
+	 height: 80vh;
+}
+ .mp-police1-carousel-image-3 {
+	 background-image: url("https://www.worldatlas.com/r/w1200/upload/9e/9d/d9/country-flags-green.jpg");
+	 background-size: cover;
+	 height: 80vh;
+}
+ .mp-police1-carousel-image-3-card {
+	 background-color: transparent;
+	 color: white;
+	 margin: 100px;
+	 font-family: "Roboto";
+}
+ .mp-police1-carousel-image-3-card-heading {
+	 font-weight: bold;
+	 font-size: 40px;
+}
+ .mp-police1-carousel-image-3-card-button {
+	 width: 150px;
+	 height: 45px;
+	 border-radius: 40px;
+	 border-style: solid;
+	 border-color: white;
+	 font-size: 15px;
+}
+/* UPDATION SECTION */
+ .help-bg-container {
+	 background-color: #f0e68c;
+}
+ .help-phone-icon {
+	 color: #fff;
+	 padding: 10px;
+}
+ .help-paragraph {
+	 color: #fff;
+	 padding-left: 70px;
+}
+ .help-vertical-line {
+	 height: 50px;
+	 width: 2px;
+	 background-color: #fff;
+	 margin-left: 10px;
+}
+ .update-bg-container {
+	 background-color: black;
+}
+ .update-image1 {
+	 height: 100px;
+	 width: 100px;
+	 margin: 30px;
+	 background-color: #fff;
+	 border-radius: 15px;
+	 padding: 20px;
+}
+ .update-paragraph {
+	 color: #000;
+	 padding-top: 40px;
+	 font-size: 25px;
+}
+ span {
+	 font-weight: 900;
+	 font-size: 30px;
+}
+ .update-vertical-line {
+	 height: 220px;
+	 width: 2px;
+	 background-color: #000;
+	 margin: 10px;
+	 margin-left: 200px;
+}
+ .update-paragraph1 {
+	 color: #000;
+	 font-size: 25px;
+}
+ .update-link {
+	 color: blue;
+}
+ .update-paragraph2 {
+	 color: #000;
+	 font-size: 25px;
+	 padding-left: 30px;
+}
+ .update-viewmore {
+	 color: blue;
+	 font-size: 25px;
+	 padding-left: 500px;
+	 font-weight: bold;
+}
+ .update-paragraph-line {
+	 padding-left: 90px;
+	 font-weight: normal;
+	 font-size: 25px;
+}
+/* VACCINATION CENTER */
+ .mp-police1-vaccination-center-card {
+	 height: 20px;
+}
+ .mp-police1-vaccination-center-card-span {
+	 color: blue;
+}
+ .mp-police1-vaccination-center-line {
+	 width: 50vw;
+}
+ .mp-police1-vaccination-center-list {
+	 height: 35px;
+	 width: 200px;
+	 border-radius: 20px;
+	 padding: 5px;
+	 margin-right: 10px;
+}
+ .mp-police1-vaccination-center-button {
+	 color: white;
+	 background-color: blue;
+	 border-radius: 30px;
+	 padding: 4px;
+	 width: 100px;
+	 border-style: solid;
+	 border-color: blue;
+}
+/* WHAT'S NEW ON mp-police1 SECTION */
+ .mp-police1-wnc-section-bg-container {
+	 background-color: #242226;
+	 color: white;
+}
+ .mp-police1-wnc-section-heading {
+	 text-align: center;
+	 margin-right: 50px;
+}
+ .mp-police1-wnc-section-bg-container-line {
+	 color: white;
+	 border-width: 1px;
+	 border-style: solid;
+}
+/* CERTIFICATION SECTION */
+ .mp-police1-certification-bg-container {
+	 background-color: #f0f5f4;
+}
+ .mp-police1-certification-button {
+	 width: 200px;
+	 border-radius: 20px;
+	 color: blue;
+	 border-color: blue;
+	 border-style: solid;
+	 border-width: 2px;
+}
+ #mp-police1-certification-button {
+	 color: white;
+	 background-color: blue;
+}
+/* CARD SECTION */
+ .mp-police1-card-section-bg-container {
+	 background-color: #f0f5f4;
+}
+ .mp-police1-card-numbers {
+	 height: 60px;
+	 width: 60px;
+	 background-color: white;
+	 border-radius: 50px;
+	 padding: 5px 10px 25px 20px;
+	 margin-left: 80px;
+}
+ .mp-police1-card {
+	 background-color: white;
+	 border-radius: 15px;
+	 padding: 10px;
+	 height: 250px;
+}
+ .mp-police1-card-image {
+	 height: 150px;
+	 border-radius: 15px;
+}
+/* MAP SECTION */
+ .map-bg-container {
+	 background-color: #183b56;
+	 padding: 45px;
+}
+ .map-heading {
+	 color: white;
+	 text-align: center;
+	 font-family: "Roboto";
+}
+ .map-paragraph {
+	 color: white;
+	 font-weight: 500;
+	 font-family: "Roboto";
+}
+ .map-padding-left1 {
+	 padding-left: 180px;
+}
+ .map-padding-left2 {
+	 padding-left: 185px;
+}
+ .map-padding-left {
+	 padding-left: 165px;
+}
+ .map-padding-left3 {
+	 padding-left: 180px;
+	 padding-top: 40px;
+}
+ .map-p-value {
+	 color: white;
+	 font-weight: bold;
+	 padding-left: 210px;
+	 font-size: 25px;
+	 font-family: "Roboto";
+}
+ .map-icon {
+	 color: white;
+	 padding: 15px;
+}
+ .map-button {
+	 border-radius: 100px;
+	 width: 280px;
+	 height: 70px;
+	 background-color: transparent;
+	 color: white;
+	 font-weight: 500;
+	 border-width: 3px;
+	 border-color: #fff;
+	 font-family: "Roboto";
+}
+ .map-image {
+	 height: 420px;
+}
+ .map-arrow-icon {
+	 height: 5px;
+	 width: 5px;
+	 font-size: 18px;
+	 font-weight: bold;
+}
+/* PARTNER SECTION */
+ .mp-police1-partner-logo {
+	 height: 60px;
+	 width: 180px;
+}
+ .mp-police1-partner-content {
+	 color: blue;
+}
+/* FOOTER SECTION */
+ .bg-container-vaccination-service {
+	 background-color: #0e1229;
+	 background-size: cover;
+}
+ .footer-heading-vaccination-service {
+	 font-size: 15px;
+	 color: #fff;
+	 padding: 15px;
+}
+ .footer-para-vaccination-service {
+	 color: #fff;
+	 font-size: 12px;
+	 padding-left: 15px;
+}
+ .footer-paragraph-vaccination-service {
+	 color: #fff;
+	 font-size: 12px;
+	 padding: 15px;
+}
+ .footer-paragraph1-vaccination-service {
+	 color: #fff;
+	 font-size: 12px;
+	 padding: 15px;
+	 padding-left: 570px;
+}
+ .footer-paragraph2-vaccination-service {
+	 color: #fff;
+	 font-size: 12px;
+	 padding: 15px;
+	 padding-left: 100px;
+}
+ .btn-pink {
+	 background-color: #d72986;
+	 color: black;
+}
+ 
+
+
+.dropzone {
+	margin: auto;
+	width: 60%;
+	border: 1px dashed #000 !important;
+	border-radius: 5px;
+	transition: 0.2s;
+	box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropzone.dz-drag-hover {
+	border: 2px solid #3498db !important;
+  }
+  
+  .dz-message.needsclick img {
+	width: 50px;
+	display: block;
+	margin: auto;
+	opacity: 0.6;
+	margin-bottom: 15px;
+  }
+  
+  span.plus {
+	display: none;
+  }
+  
+  .dropzone.dz-started .dz-message {
+	display: inline-block !important;
+	width: 120px;
+	float: right;
+	border: 1px solid rgba(238, 238, 238, 0.36);
+	border-radius: 30px;
+	height: 120px;
+	margin: 16px;
+	transition: 0.2s;
+  }
+  .dropzone.dz-started .dz-message span.text {
+	display: none;
+  }
+  .dropzone.dz-started .dz-message span.plus {
+	display: block;
+	font-size: 70px;
+	color: #aaa;
+	line-height: 110px;
+  }
+  @import url("https://fonts.googleapis.com/css?family=Roboto");
+  @-webkit-keyframes come-in {
+	0% {
+	  -webkit-transform: translatey(100px);
+			  transform: translatey(100px);
+	  opacity: 0;
+	}
+	30% {
+	  -webkit-transform: translateX(-50px) scale(0.4);
+			  transform: translateX(-50px) scale(0.4);
+	}
+	70% {
+	  -webkit-transform: translateX(0px) scale(1.2);
+			  transform: translateX(0px) scale(1.2);
+	}
+	100% {
+	  -webkit-transform: translatey(0px) scale(1);
+			  transform: translatey(0px) scale(1);
+	  opacity: 1;
+	}
+  }
+  @keyframes come-in {
+	0% {
+	  -webkit-transform: translatey(100px);
+			  transform: translatey(100px);
+	  opacity: 0;
+	}
+	30% {
+	  -webkit-transform: translateX(-50px) scale(0.4);
+			  transform: translateX(-50px) scale(0.4);
+	}
+	70% {
+	  -webkit-transform: translateX(0px) scale(1.2);
+			  transform: translateX(0px) scale(1.2);
+	}
+	100% {
+	  -webkit-transform: translatey(0px) scale(1);
+			  transform: translatey(0px) scale(1);
+	  opacity: 1;
+	}
+  }
+  * {
+	margin: 0;
+	padding: 0;
+  }
+  
+  
+  
+  .floating-container {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	bottom: 0;
+	right: 0;
+	margin: 35px 25px;
+  }
+  .floating-container:hover {
+	height: 300px;
+  }
+  .floating-container:hover .floating-button {
+	box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+	-webkit-transform: translatey(5px);
+			transform: translatey(5px);
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+  }
+  .floating-container:hover .element-container .float-element:nth-child(1) {
+	-webkit-animation: come-in 0.4s forwards 0.2s;
+			animation: come-in 0.4s forwards 0.2s;
+  }
+  .floating-container:hover .element-container .float-element:nth-child(2) {
+	-webkit-animation: come-in 0.4s forwards 0.4s;
+			animation: come-in 0.4s forwards 0.4s;
+  }
+  .floating-container:hover .element-container .float-element:nth-child(3) {
+	-webkit-animation: come-in 0.4s forwards 0.6s;
+			animation: come-in 0.4s forwards 0.6s;
+  }
+  .floating-container .floating-button {
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	background: #2cb3f0;
+	bottom: 0;
+	border-radius: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: white;
+	line-height: 65px;
+	text-align: center;
+	font-size: 23px;
+	z-index: 100;
+	box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+  }
+  .floating-container .float-element {
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	margin: 15px auto;
+	color: white;
+	font-weight: 500;
+	text-align: center;
+	line-height: 50px;
+	z-index: 0;
+	opacity: 0;
+	-webkit-transform: translateY(100px);
+			transform: translateY(100px);
+  }
+  .floating-container .float-element .material-icons {
+	vertical-align: middle;
+	font-size: 16px;
+  }
+  .floating-container .float-element:nth-child(1) {
+	background: #42A5F5;
+	box-shadow: 0 20px 20px -10px rgba(66, 165, 245, 0.5);
+  }
+  .floating-container .float-element:nth-child(2) {
+	background: #4CAF50;
+	box-shadow: 0 20px 20px -10px rgba(76, 175, 80, 0.5);
+  }
+  .floating-container .float-element:nth-child(3) {
+	background: #FF9800;
+	box-shadow: 0 20px 20px -10px rgba(255, 152, 0, 0.5);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.drag-area{
+  border: 2px dashed #fff;
+  height: 500px;
+  width: 700px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: #fff;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
