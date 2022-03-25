@@ -24,7 +24,7 @@ export const Home = () => {
             />
 
             {!isloaded && <Featurs />}
-            {isloaded && <Searchresults />}
+            {isloaded && <Searchresults data={data} />}
             <Footer />
         </>
     );

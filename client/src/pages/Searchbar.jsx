@@ -12,44 +12,14 @@ const Searchbar = ({ setData, setisloaded }) => {
     };
 
     const handleButtonClicked = async () => {
-        const plate = 'MH47AB1234';
-        const res = await axios.get(`${url}/locs/${plate}`);
-        console.log(res.data);
-        setData(res.data);
+        const res = await axios.get(`${url}/locs/${searchQuery}`);
+        console.log(res.data.data);
+        setData(res.data.data);
         setisloaded(true);
     };
 
     return (
         <>
-            {/* <div className="update-bg-container">
-        <div className="d-flex flex-row ">
-          <div className="container h-100 d-flex">
-            <div className="my-auto w-100">
-              <div className="input-group input-group-xl">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Search..."
-                  aria-label="Search..."
-                  aria-describedby="button-addon2"
-                  value={searchQuery}
-                  onChange={handleInputChanged}
-                />
-                <div className="input-group-append">
-                  <button
-                    className="btn btn-pink"
-                    type="submit"
-                    id="button-addon2"
-                  >
-                    <i className="fa fa-search" onClick={handleButtonClicked} />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
             <div className='input-group input-group-xl'>
                 <input
                     type='text'
