@@ -7,8 +7,9 @@ const {
 
 const router = express.Router();
 
-router.route('/').get(getLocations).post(addLocation);
+router.get('/', getLocations);
+router.post('/', addLocation);
 
-router.route('/locs').post(getSpecific);
+router.get('/locs', getSpecific);
 
 module.exports = router;
