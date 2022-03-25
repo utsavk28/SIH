@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+ .mp-police1-navbar-1 {
+	 color: white;
+	 font-family: "Roboto";
+}
+ .mp-police1-navbar-1-anchor-buttons {
+	 color: white;
+	 border-style: solid;
+	 background-color: black;
+	 border-color: white;
+	 border-radius: 7px;
+	 width: 50px;
+}
+ #mp-police1-navbar-1-anchor-buttons {
+	 width: 100px;
+	 border-color: black;
+}
+/* NAVBAR - 2 */
+ .mp-police1-navbar-2-image {
+	 height: 100px;
+	 width: 150px;
+}
+ .mp-police1-navbar-2-button {
+	 border-style: solid;
+	 border-color: white;
+	 background-color: black;
+	 color: white;
+	 border-radius: 30px;
+	 height: 30px;
+	 width: 150px;
+}
+/* CAROUSEL */
+ .mp-police1-carousel-image {
+	 height: 80vh;
+}
+ .mp-police1-carousel-image-3 {
+	 background-image: url("https://www.worldatlas.com/r/w1200/upload/9e/9d/d9/country-flags-green.jpg");
+	 background-size: cover;
+	 height: 80vh;
+}
+ .mp-police1-carousel-image-3-card {
+	 background-color: transparent;
+	 color: white;
+	 margin: 100px;
+	 font-family: "Roboto";
+}
+ .mp-police1-carousel-image-3-card-heading {
+	 font-weight: bold;
+	 font-size: 40px;
+}
+ .mp-police1-carousel-image-3-card-button {
+	 width: 150px;
+	 height: 45px;
+	 border-radius: 40px;
+	 border-style: solid;
+	 border-color: white;
+	 font-size: 15px;
+}
+/* UPDATION SECTION */
+ .help-bg-container {
+	 background-color: #f0e68c;
+}
+ .help-phone-icon {
+	 color: #fff;
+	 padding: 10px;
+}
+ .help-paragraph {
+	 color: #fff;
+	 padding-left: 70px;
+}
+ .help-vertical-line {
+	 height: 50px;
+	 width: 2px;
+	 background-color: #fff;
+	 margin-left: 10px;
+}
+ .update-bg-container {
+	 background-color: black;
+}
+ .update-image1 {
+	 height: 100px;
+	 width: 100px;
+	 margin: 30px;
+	 background-color: #fff;
+	 border-radius: 15px;
+	 padding: 20px;
+}
+ .update-paragraph {
+	 color: #000;
+	 padding-top: 40px;
+	 font-size: 25px;
+}
+ span {
+	 font-weight: 900;
+	 font-size: 30px;
+}
+ .update-vertical-line {
+	 height: 220px;
+	 width: 2px;
+	 background-color: #000;
+	 margin: 10px;
+	 margin-left: 200px;
+}
+ .update-paragraph1 {
+	 color: #000;
+	 font-size: 25px;
+}
+ .update-link {
+	 color: blue;
+}
+ .update-paragraph2 {
+	 color: #000;
+	 font-size: 25px;
+	 padding-left: 30px;
+}
+ .update-viewmore {
+	 color: blue;
+	 font-size: 25px;
+	 padding-left: 500px;
+	 font-weight: bold;
+}
+ .update-paragraph-line {
+	 padding-left: 90px;
+	 font-weight: normal;
+	 font-size: 25px;
+}
+/* VACCINATION CENTER */
+ .mp-police1-vaccination-center-card {
+	 height: 20px;
+}
+ .mp-police1-vaccination-center-card-span {
+	 color: blue;
+}
+ .mp-police1-vaccination-center-line {
+	 width: 50vw;
+}
+ .mp-police1-vaccination-center-list {
+	 height: 35px;
+	 width: 200px;
+	 border-radius: 20px;
+	 padding: 5px;
+	 margin-right: 10px;
+}
+ .mp-police1-vaccination-center-button {
+	 color: white;
+	 background-color: blue;
+	 border-radius: 30px;
+	 padding: 4px;
+	 width: 100px;
+	 border-style: solid;
+	 border-color: blue;
+}
+/* WHAT'S NEW ON mp-police1 SECTION */
+ .mp-police1-wnc-section-bg-container {
+	 background-color: #242226;
+	 color: white;
+}
+ .mp-police1-wnc-section-heading {
+	 text-align: center;
+	 margin-right: 50px;
+}
+ .mp-police1-wnc-section-bg-container-line {
+	 color: white;
+	 border-width: 1px;
+	 border-style: solid;
+}
+/* CERTIFICATION SECTION */
+ .mp-police1-certification-bg-container {
+	 background-color: #f0f5f4;
+}
+ .mp-police1-certification-button {
+	 width: 200px;
+	 border-radius: 20px;
+	 color: blue;
+	 border-color: blue;
+	 border-style: solid;
+	 border-width: 2px;
+}
+ #mp-police1-certification-button {
+	 color: white;
+	 background-color: blue;
+}
+/* CARD SECTION */
+ .mp-police1-card-section-bg-container {
+	 background-color: #f0f5f4;
+}
+ .mp-police1-card-numbers {
+	 height: 60px;
+	 width: 60px;
+	 background-color: white;
+	 border-radius: 50px;
+	 padding: 5px 10px 25px 20px;
+	 margin-left: 80px;
+}
+ .mp-police1-card {
+	 background-color: white;
+	 border-radius: 15px;
+	 padding: 10px;
+	 height: 250px;
+}
+ .mp-police1-card-image {
+	 height: 150px;
+	 border-radius: 15px;
+}
+/* MAP SECTION */
+ .map-bg-container {
+	 background-color: #183b56;
+	 padding: 45px;
+}
+ .map-heading {
+	 color: white;
+	 text-align: center;
+	 font-family: "Roboto";
+}
+ .map-paragraph {
+	 color: white;
+	 font-weight: 500;
+	 font-family: "Roboto";
+}
+ .map-padding-left1 {
+	 padding-left: 180px;
+}
+ .map-padding-left2 {
+	 padding-left: 185px;
+}
+ .map-padding-left {
+	 padding-left: 165px;
+}
+ .map-padding-left3 {
+	 padding-left: 180px;
+	 padding-top: 40px;
+}
+ .map-p-value {
+	 color: white;
+	 font-weight: bold;
+	 padding-left: 210px;
+	 font-size: 25px;
+	 font-family: "Roboto";
+}
+ .map-icon {
+	 color: white;
+	 padding: 15px;
+}
+ .map-button {
+	 border-radius: 100px;
+	 width: 280px;
+	 height: 70px;
+	 background-color: transparent;
+	 color: white;
+	 font-weight: 500;
+	 border-width: 3px;
+	 border-color: #fff;
+	 font-family: "Roboto";
+}
+ .map-image {
+	 height: 420px;
+}
+ .map-arrow-icon {
+	 height: 5px;
+	 width: 5px;
+	 font-size: 18px;
+	 font-weight: bold;
+}
+/* PARTNER SECTION */
+ .mp-police1-partner-logo {
+	 height: 60px;
+	 width: 180px;
+}
+ .mp-police1-partner-content {
+	 color: blue;
+}
+/* FOOTER SECTION */
+ .bg-container-vaccination-service {
+	 background-color: #0e1229;
+	 background-size: cover;
+}
+ .footer-heading-vaccination-service {
+	 font-size: 15px;
+	 color: #fff;
+	 padding: 15px;
+}
+ .footer-para-vaccination-service {
+	 color: #fff;
+	 font-size: 12px;
+	 padding-left: 15px;
+}
+ .footer-paragraph-vaccination-service {
+	 color: #fff;
+	 font-size: 12px;
+	 padding: 15px;
+}
+ .footer-paragraph1-vaccination-service {
+	 color: #fff;
+	 font-size: 12px;
+	 padding: 15px;
+	 padding-left: 570px;
+}
+ .footer-paragraph2-vaccination-service {
+	 color: #fff;
+	 font-size: 12px;
+	 padding: 15px;
+	 padding-left: 100px;
+}
+ .btn-pink {
+	 background-color: #d72986;
+	 color: black;
+}
+ 
+
+
+.box {
+	font-size: 1.25rem; /* 20 */
+	background-color: #c8dadf;
+	position: relative;
+	text-align: center;
+	padding: 100px 20px;
+}
+.box.has-advanced-upload {
+	outline: 2px dashed #92b0b3;
+	outline-offset: -10px;
+
+	-webkit-transition: outline-offset .15s ease-in-out,
+		background-color .15s linear;
+	transition: outline-offset .15s ease-in-out, background-color .15s linear;
+}
+.box.is-dragover {
+	outline-offset: -20px;
+	outline-color: #c8dadf;
+	background-color: #fff;
+}
+.box__dragndrop, .box__icon {
+	display: none;
+}
+.box.has-advanced-upload .box__dragndrop {
+	display: inline;
+}
+.box.has-advanced-upload .box__icon {
+	width: 100%;
+	height: 80px;
+	fill: #92b0b3;
+	display: block;
+	margin-bottom: 40px;
+}
+
+.box.is-uploading .box__input,
+.box.is-success .box__input,
+.box.is-error .box__input {
+	visibility: hidden;
+}
+
+.box__uploading, .box__success, .box__error {
+	display: none;
+}
+.box.is-uploading .box__uploading,
+.box.is-success .box__success,
+.box.is-error .box__error {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 0;
+
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.box__uploading {
+	font-style: italic;
+}
+.box__success {
+	-webkit-animation: appear-from-inside .25s ease-in-out;
+	animation: appear-from-inside .25s ease-in-out;
+}
+@-webkit-keyframes appear-from-inside {
+	from {
+		-webkit-transform: translateY(-50%) scale(0);
+	}
+	75% {
+		-webkit-transform: translateY(-50%) scale(1.1);
+	}
+	to {
+		-webkit-transform: translateY(-50%) scale(1);
+	}
+}
+@keyframes appear-from-inside {
+	from {
+		transform: translateY(-50%) scale(0);
+	}
+	75% {
+		transform: translateY(-50%) scale(1.1);
+	}
+	to {
+		transform: translateY(-50%) scale(1);
+	}
+}
+
+.box__restart {
+	font-weight: 700;
+}
+.box__restart:focus, .box__restart:hover {
+	color: #39bfd3;
+}
+
+.js .box__file {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.js .box__file + label {
+	max-width: 80%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+}
+.js .box__file + label:hover strong,
+.box__file:focus + label strong,
+.box__file.has-focus + label strong {
+	color: #39bfd3;
+}
+.js .box__file:focus + label, .js .box__file.has-focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.js .box__file + label * {
+	/* pointer-events: none; */ /* in case of FastClick lib use */
+}
+
+.no-js .box__file + label {
+	display: none;
+}
+
+.no-js .box__button {
+	display: block;
+}
+.box__button {
+	font-weight: 700;
+	color: #e5edf1;
+	background-color: #39bfd3;
+	display: none;
+	padding: 8px 16px;
+	margin: 40px auto 0;
+}
+.box__button:hover, .box__button:focus {
+	background-color: #0f3c4b;
+}
+
+  
+  

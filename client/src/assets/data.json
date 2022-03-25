@@ -1,0 +1,37 @@
+[
+    {
+      "_id": "623d8455a150c511284c5c25",
+      "index": 0,
+      "plateno": "6a381656-015f-4bbb-a727-79e9423c80c5",
+      "isActive": true,
+      "balance": "$1,991.66"
+    },
+    {
+      "_id": "623d84551e4b6f149b943e05",
+      "index": 1,
+      "plateno": "274e7884-b60d-4aac-bace-b9fb00ea891f",
+      "isActive": false,
+      "balance": "$1,087.29"
+    },
+    {
+      "_id": "623d845519744e253e1d4c6a",
+      "index": 2,
+      "plateno": "b202fbdd-804d-4004-bc13-0ea91cd20c14",
+      "isActive": false,
+      "balance": "$1,496.80"
+    },
+    {
+      "_id": "623d84553895ca99425b52d0",
+      "index": 3,
+      "plateno": "fa1579d4-9ab2-4325-838a-b2a587ad125e",
+      "isActive": false,
+      "balance": "$3,629.25"
+    },
+    {
+      "_id": "623d8455ef0a2e2d45fb632b",
+      "index": 4,
+      "plateno": "f4f11998-a3da-4112-b0a7-8358fb9841db",
+      "isActive": true,
+      "balance": "$2,764.51"
+    }
+  ]
