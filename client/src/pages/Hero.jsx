@@ -8,7 +8,7 @@ export const Hero = ({setData,setisloaded}) => {
         <div className="container">
           <div className="hero__image" />
           <div className="hero__text container--pall">
-            <h1>Vehicle Tracking </h1>
+            <h1>The Third Eye </h1>
             <p>
               A simple and easy way to track Suspected criminals on the move.
               A web based solution to increase security on roads.
