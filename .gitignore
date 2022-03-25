@@ -1,2 +1,5 @@
 /server/venv
 /client/node_modules
+/server/node_modules
+/**/node_modules
+/temp/sih-backend
