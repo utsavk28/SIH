@@ -29,7 +29,7 @@ const Drag = () => {
                         multiple
                     />
                     <label htmlFor='file'>
-                        <strong>Choose a file</strong>
+                        Select File
                         <span className='box__dragndrop'> or drag it here</span>
                         .
                     </label>
