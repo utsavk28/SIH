@@ -5,9 +5,9 @@ export const Featurs = () => {
   return (
   <>
   
-<section class="features">
-  <div class="container">
-    <div class="features__text container--pall">
+<section className="features" id="upload">
+  <div className="container">
+    <div className="features__text container--pall">
       <h2>Upload Image/Video</h2>
       <p>
         Our aim is to make it quick and easy for you to get to your suspect. 
@@ -15,24 +15,24 @@ export const Featurs = () => {
       </p>
     </div>
 
-    <div class="features__list container--pall">
+    <div className="features__list container--pall">
       
      
     </div>
-    <div class="features__feature featureTap active">
-      <div class="">
+    <div className="features__feature featureTap active">
+      <div className="">
 
 
         <Drag />
       </div>
 
-      <div class="feature__text container--pall md-4">
+      <div className="feature__text container--pall md-4">
         <h3>Bookmark in one click</h3>
         <p>
           Organize your bookmarks however you like. Our simple drag-and-drop interface 
           gives you complete control over how you manage your favourite sites.
         </p>
-        <a href="#" class="primary-btn btn-blue ">More Info</a>
+        <a href="#" className="primary-btn btn-blue ">More Info</a>
       </div>
     </div>
     </div >

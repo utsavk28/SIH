@@ -1,26 +1,13 @@
-/*   color variables */
-/*   border radius */
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    font-family: Mukta, sans-serif;
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    color: #4f546c;
-    font-size: 0.9rem;
-    background-color: #f9fbff;
-  }
+
   table {
+    margin-left: 20%;
     border-collapse: collapse;
     box-shadow: 0 5px 10px #e1e5ee;
     background-color: white;
     text-align: left;
     overflow: hidden;
+    margin-bottom: 10%;
+    width:50%;
   }
   table thead {
     box-shadow: 0 5px 10px #e1e5ee;
