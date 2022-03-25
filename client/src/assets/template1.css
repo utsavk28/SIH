@@ -465,6 +465,8 @@
   .features__text p{
     font-size: 1.131rem; /* 18.2px */
     color: var(--clr-neutral-GrayishBlue);
+    margin-bottom: 30px;
+    margin-top: 0px;
   }
   
   .features__list {
@@ -534,7 +536,6 @@
   }
   
   .features__feature {
-    border: 5px dotted black;
     
     position: relative;
     display: none;
@@ -609,7 +610,7 @@
   
   .feature__text {
     max-width: 30.625rem; /* 490px */
-    margin: -220px;
+    margin: 220px;
   }
   
   @media (min-width: 1024px) {
@@ -1142,4 +1143,14 @@
 label {
   width: 350px;
   box-sizing: border-box;
+}
+
+.fatima 
+{
+  margin-top:10%;
+  margin-bottom:80%;
+}
+.muskan
+{
+margin-left: -50%;
 }
