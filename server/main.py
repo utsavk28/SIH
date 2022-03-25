@@ -95,25 +95,33 @@ def yolo_predictions(img, net):
     return result_img, labels
 
 
-def extract_text(image, bbox, show=False):
-    x, y, w, h = bbox
+def extract_text(image, bbox):
+    x,y,w,h = bbox
     roi = image[y:y+h, x:x+w]
+    
+    gray = cv2.cvtColor(roi, cv2.COLOR_RGB2GRAY)
+    thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
+    thresh = cv2.cvtColor(thresh, cv2.COLOR_BGR2RGB)
+    plt.imshow(thresh)
+    plt.show()
 
+    # gausBlur = cv2.GaussianBlur(thresh, (1,1),0) 
+    # cv2.imshow('Gaussian Blurring', gausBlur)
+    # cv2.waitKey(0)
+
+    # bilFilter = cv2.bilateralFilter(roi,9,75,75)
+    # cv2.imshow('Bilateral Filtering', bilFilter)
+    # cv2.waitKey(0)
+    
     if 0 in roi.shape:
         return ''
+    
     else:
-        img = roi
-        img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
-        norm_img = np.zeros((img.shape[0], img.shape[1]))
-        img = cv2.normalize(img, norm_img, 0, 255, cv2.NORM_MINMAX)
-        img = cv2.threshold(
-            img, 100, 255,  cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
-        kernel_size = (1, 1)
-        img = cv2.GaussianBlur(img, kernel_size, 0)
-
-        text = pt.image_to_string(
-            img, config='-c tessedit_char_whitelist=0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ --psm 8 --oem 3')
+        text = pt.image_to_string(thresh, config='-c tessedit_char_whitelist=0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ --psm 7 --oem 1')
         text = text.strip()
+        text = text.strip('?')
+        text.replace('?','').replace('\n','')
+        print(text)
         return text
 
 
