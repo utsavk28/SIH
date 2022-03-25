@@ -17,7 +17,7 @@ export const Faq = () => {
             <div className="questions__question">
               <input type="radio" name="InpRadio" className="question__input-radio" id="faqsQuestion1" />
               <label htmlFor="faqsQuestion1" className="question__info">
-                <h3>What is Bookmark?</h3>
+                <h3>What is This Website About?</h3>
                 <span>
                   <i className="bx bx-chevron-down" />
                 </span>
@@ -32,7 +32,7 @@ export const Faq = () => {
             <div className="questions__question">
               <input type="radio" name="InpRadio" className="question__input-radio" id="faqsQuestion2" />
               <label htmlFor="faqsQuestion2" className="question__info">
-                <h3>How can I request a new browser?</h3>
+                <h3>How can I search a License Plate Number?</h3>
                 <span>
                   <i className="bx bx-chevron-down" />
                 </span>
@@ -49,7 +49,7 @@ export const Faq = () => {
             <div className="questions__question">
               <input type="radio" name="InpRadio" className="question__input-radio" id="faqsQuestion3" />
               <label htmlFor="faqsQuestion3" className="question__info">
-                <h3>Is there a mobile app?</h3>
+                <h3>I have a video of the vehicle, Can I still search?</h3>
                 <span>
                   <i className="bx bx-chevron-down" />
                 </span>
@@ -65,7 +65,7 @@ export const Faq = () => {
             <div className="questions__question">
               <input type="radio" name="InpRadio" className="question__input-radio" id="faqsQuestion4" />
               <label htmlFor="faqsQuestion4" className="question__info">
-                <h3>What about other Chromium browsers?</h3>
+                <h3>How can I track the Vehicle on map?</h3>
                 <span>
                   <i className="bx bx-chevron-down" />
                 </span>
