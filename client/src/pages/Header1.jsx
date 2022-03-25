@@ -11,7 +11,7 @@ export const Header1 = () => {
         <nav className="flex flex-jc-sb flex-ai-c container container--pall">
           <a href="/" className="header__logo logo">
             <i className="bx bxs-bookmark" />
-            <span>bookmark</span>
+            <span>MP POLICE</span>
           </a>
           <a href="#" id="btnHamburger" className="header__hamburger hide-for-desktop">
             <span />
@@ -19,10 +19,10 @@ export const Header1 = () => {
             <span />
           </a>
           <div className="header__links hide-for-mobile">
-            <a href="#">Features</a>
-            <a href="#">Pricing</a>
+            <a href="#">Home</a>
+            <a href="#">Upload</a>
             <a href="#">Contact</a>
-            <a href="#" className="btn-red">Login</a>
+            <a href="#" className="btn-red">About US</a>
           </div>
         </nav>
         <div className="header__menu container--px has-fade hide-for-desktop">
