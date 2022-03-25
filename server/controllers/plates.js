@@ -5,7 +5,7 @@ const Plate = require('../models/Plate');
 exports.getLocations = async (req, res, next) => {
     try {
         const plates = await Plate.find({ stateCode: 'MH' });
-        console.log(plates);
+        // console.log(plates);
 
         return res.status(200).json({
             success: true,
@@ -49,7 +49,9 @@ exports.addLocation = async (req, res, next) => {
 
 exports.getSpecific = async (req, res, next) => {
     try {
-        const licenseNo = req.body.plate;
+        const licenseNo = req.params.plate;
+        console.log(req.params);
+        console.log(licenseNo);
         const stateCode = licenseNo.substr(0, 2);
         const midNo = licenseNo.substr(2, 2);
         const midAlph = licenseNo.substr(4, 2);

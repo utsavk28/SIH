@@ -17,7 +17,6 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-
 // Enable cors
 app.use(cors());
 
@@ -25,10 +24,12 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
-app.use('/', require('./routes/plates'));
+app.use('/api/', require('./routes/plates'));
 
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () =>
-  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`)
+    console.log(
+        `Server running in ${process.env.NODE_ENV} mode on port ${PORT}`
+    )
 );
