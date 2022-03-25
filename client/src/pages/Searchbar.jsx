@@ -1,29 +1,29 @@
-import React, { useState } from "react";
-import axios from "axios";
-import Searchresults from "./Searchresults";
+import React, { useState } from 'react';
+import axios from 'axios';
+import Searchresults from './Searchresults';
 
-var data1 = require("../assets/data.json");
+var data1 = require('../assets/data.json');
 
-const Searchbar = ({ setData ,setisloaded}) => {
-  const [searchQuery, setSearchQuery] = useState("");
+const Searchbar = ({ setData, setisloaded }) => {
+    const [searchQuery, setSearchQuery] = useState('');
 
-  const handleInputChanged = (e) => {
-    setSearchQuery(e.target.value);
-  };
+    const handleInputChanged = (e) => {
+        setSearchQuery(e.target.value);
+    };
 
-  const handleButtonClicked = () => {
-    //var searchQuery = this.state.searchQuery;
-    console.log("ablhdjln");
+    const handleButtonClicked = () => {
+        //var searchQuery = this.state.searchQuery;
+        console.log('ablhdjln');
 
-   // console.log(data);
-    setData(data1);
-    setisloaded(true);
-    //window.location.href = "https://youtube.com/results?search_query=" + searchQuery;
-  };
+        // console.log(data);
+        setData(data1);
+        setisloaded(true);
+        //window.location.href = "https://youtube.com/results?search_query=" + searchQuery;
+    };
 
-  return (
-    <>
-      {/* <div className="update-bg-container">
+    return (
+        <>
+            {/* <div className="update-bg-container">
         <div className="d-flex flex-row ">
           <div className="container h-100 d-flex">
             <div className="my-auto w-100">
@@ -52,24 +52,28 @@ const Searchbar = ({ setData ,setisloaded}) => {
         </div>
       </div> */}
 
-<div className="input-group input-group-xl">
-              <input
-                type="text"
-                className="form-control"
-                placeholder="Search..."
-                aria-label="Search..."
-                aria-describedby="button-addon2"
-                value={searchQuery}
-                onChange={handleInputChanged}
-              />
+            <div className='input-group input-group-xl'>
+                <input
+                    type='text'
+                    className='form-control'
+                    placeholder='Search...'
+                    aria-label='Search...'
+                    aria-describedby='button-addon2'
+                    value={searchQuery}
+                    onChange={handleInputChanged}
+                />
             </div>
-        
-            <button href="#" className="primary-btn btn-primary offset-md-4 avi1" onClick={handleButtonClicked}>
-                <span className="fa fa-search"> </span>
-                &nbsp;   Search
+
+            <button
+                href='#'
+                className='primary-btn btn-primary offset-md-4 avi1'
+                onClick={handleButtonClicked}
+            >
+                <span className='fa fa-search'> </span>
+                &nbsp; Search
             </button>
-    </>
-  );
+        </>
+    );
 };
 
 export default Searchbar;

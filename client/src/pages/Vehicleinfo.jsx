@@ -16,4 +16,4 @@ const Vehicleinfo = () => {
     );
 };
 
-export default Vehicleinfo
+export default Vehicleinfo;

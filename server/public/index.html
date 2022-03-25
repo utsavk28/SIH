@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' /> 
+    <title>Map</title>
+</head>
+<body>
+    <form id="plateForm" method="POST">
+        <label for="plate">License plate no.:</label><br>
+        <input type="text" id="plate" name="plate"><br>
+        <button type="Submit">Add</button>
+    </form>
+    <form id="search" method="POST">
+        <label for="plate">License plate no.:</label><br>
+        <input type="text" id="plate" name="plate"><br>
+        <button type="Submit">Find</button>
+    </form>
+    <div
+    id="map"
+    style="width:100%; height:500px; border-radius: 5px"
+    ></div>
+
+    <script src="js/map.js"></script>
+</body>
+</html>
