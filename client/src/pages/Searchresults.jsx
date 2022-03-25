@@ -1,13 +1,6 @@
 import React from 'react';
 import '../assets/table.css';
 
-/*
-midAlph: "AB"
-midNo: "47"
-plateNo: "1234"
-stateCode: "MH"
-*/
-
 export const Searchresults = ({ data }) => {
     const util_plate_name = (x) => {
         return `${x.stateCode} ${x.midAlph} ${x.midNo} ${x.plateNo}`;
@@ -21,9 +14,7 @@ export const Searchresults = ({ data }) => {
                     <tr>
                         <th>Track</th>
                         <th>Plate Number</th>
-                        {/* <th>Image</th> */}
                         <th>Track Vehicle</th>
-                        {/* <th>Amount</th> */}
                     </tr>
                 </thead>
                 <tbody>

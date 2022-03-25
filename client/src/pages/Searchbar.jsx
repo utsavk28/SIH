@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Searchresults from './Searchresults';
 import { url } from '../utils/api';
-var data1 = require('../assets/data.json');
 
 const Searchbar = ({ setData, setisloaded }) => {
     const [searchQuery, setSearchQuery] = useState('');
