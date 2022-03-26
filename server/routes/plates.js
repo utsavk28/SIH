@@ -3,6 +3,7 @@ const {
     getLocations,
     addLocation,
     getSpecific,
+    addPlates,
 } = require('../controllers/plates');
 
 const router = express.Router();
