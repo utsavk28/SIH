@@ -1,15 +1,14 @@
 import React from 'react';
 import '../assets/about.css'
+import Header1 from './Header1';
 
 const About = () => {
     return (
         <>
             
             <div>
-        <header>
-          <a href="#" className="logo">Logo</a>
-          <div className="toggle" />
-        </header>
+                <Header1 />
+        
         <div className="slider">
           <input type="radio" name="slider" defaultChecked="checked" />
           <div className="imgBx">
