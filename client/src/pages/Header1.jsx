@@ -7,7 +7,7 @@ export const Header1 = () => {
             <header className='header'>
                 <div className='overlay has-fade hide-for-desktop' />
                 <nav className='flex flex-jc-sb flex-ai-c container container--pall'>
-                    <a href='/' className='header__logo logo'>
+                    <a href='/home' className='header__logo logo'>
                         <i className='bx bxs-bookmark' />
                         <img src={Logo_img} alt='Logo image'  className='cls1'/>
 
@@ -23,9 +23,10 @@ export const Header1 = () => {
                         <span />
                     </a>
                     <div className='header__links hide-for-mobile'>
-                        <a href='#home'>Home</a>
-                        <a href='#upload'>Upload</a>
-                        <a href='#' className='btn-red'>
+                        <a href='/home'>Home</a>
+                        <a href='/upload'>Upload</a>
+                        <a href='/search'>Search</a>
+                        <a href='/about' className='btn-red'>
                             About US
                         </a>
                     </div>
@@ -33,6 +34,7 @@ export const Header1 = () => {
                 <div className='header__menu container--px has-fade hide-for-desktop'>
                 <a href='#home'>Home</a>
                         <a href='#upload'>Upload</a>
+                        <a href='/search'>SEARCH</a>
                         <a href='#' className='btn-red'>
                             About US
                         </a>
